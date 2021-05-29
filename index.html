@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>-->
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>WoW raid lockout tracker</title>
@@ -20,7 +20,7 @@
         a raid one time per week, and the lockout is unique for every character.
       </p>
       <h2>List of weekly lockouts:</h2>
-      <div class="checklist">
+      <div id="checklist">
         <ul>
           <div class="characters">
             <li class="listHeader">Angrybôi</li>
@@ -284,6 +284,7 @@
           </li>
         </ul>
       </div>
+      <!--<button onclick="uncheck()" id="resetAllButton">Reset all</button> (funkade inte)-->
     </div>
   </body>
   <footer>
