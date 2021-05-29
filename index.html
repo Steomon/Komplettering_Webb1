@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>WoW raid lockout tracker</title>
+  </head>
+  <body>
+    <h1>WoW raid lockout tracker</h1>
+    <div>
+      <h2>Information</h2>
+      <p>
+        This is a small webpage application i made to be able to keep track of
+        my characters' weekly raid lockouts in World of Warcraft. The raid
+        lockout system makes it so that you can only get loot from every boss in
+        a raid one time per week, and the lockout is unique for every character.
+      </p>
+      <h2>List of weekly lockouts:</h2>
+      <div class="checklist">
+        <ul>
+          <div class="characters">
+            <li class="listHeader">Angrybôi</li>
+            <li class="listHeader">Steomon</li>
+          </div>
+
+          <li class="listHeader">Classic:</li>
+
+          <li class="checkboxes">
+            Onyxia's Lair
+            <div>
+              <input type="checkbox" id="checkbox1" />
+              <input type="checkbox" id="checkbox1_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Burning Crusade:</li>
+
+          <li class="checkboxes">
+            Karazhan
+            <div>
+              <input type="checkbox" id="checkbox2" />
+              <input type="checkbox" id="checkbox2_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            The Eye
+            <div>
+              <input type="checkbox" id="checkbox3" />
+              <input type="checkbox" id="checkbox3_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Black Temple
+            <div>
+              <input type="checkbox" id="checkbox4" />
+              <input type="checkbox" id="checkbox4_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Sunwell Plateu
+            <div>
+              <input type="checkbox" id="checkbox5" />
+              <input type="checkbox" id="checkbox5_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Wrath of the Lich King:</li>
+
+          <li class="checkboxes">
+            Vault of Archavon
+            <div>
+              <input type="checkbox" id="checkbox6" />
+              <input type="checkbox" id="checkbox6_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Eye of Eternity
+            <div>
+              <input type="checkbox" id="checkbox7" />
+              <input type="checkbox" id="checkbox7_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Ulduar
+            <div>
+              <input type="checkbox" id="checkbox8" />
+              <input type="checkbox" id="checkbox8_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Ice Crown Citadel (25H)
+            <div>
+              <input type="checkbox" id="checkbox9" />
+              <input type="checkbox" id="checkbox9_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Cataclysm:</li>
+
+          <li class="checkboxes">
+            Blackwing Descent
+            <div>
+              <input type="checkbox" id="checkbox10" />
+              <input type="checkbox" id="checkbox10_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Throne of the Four Winds
+            <div>
+              <input type="checkbox" id="checkbox11" />
+              <input type="checkbox" id="checkbox11_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Firelands (H)
+            <div>
+              <input type="checkbox" id="checkbox12" />
+              <input type="checkbox" id="checkbox12_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Firelands (N)
+            <div>
+              <input type="checkbox" id="checkbox13" />
+              <input type="checkbox" id="checkbox13_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Dragon Soul (H)
+            <div>
+              <input type="checkbox" id="checkbox14" />
+              <input type="checkbox" id="checkbox14_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Mists of Pandaria:</li>
+
+          <li class="checkboxes">
+            Mogu'shan Vaults
+            <div>
+              <input type="checkbox" id="checkbox15" />
+              <input type="checkbox" id="checkbox15_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Mogu'shan Vaults (LFR)
+            <div>
+              <input type="checkbox" id="checkbox16" />
+              <input type="checkbox" id="checkbox16_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Terrace of Endless Spring
+            <div>
+              <input type="checkbox" id="checkbox17" />
+              <input type="checkbox" id="checkbox17_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Terrace of Endless... (LFR)
+            <div>
+              <input type="checkbox" id="checkbox18" />
+              <input type="checkbox" id="checkbox18_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Throne of Thunder
+            <div>
+              <input type="checkbox" id="checkbox19" />
+              <input type="checkbox" id="checkbox19_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Siege of Orgrimmar (M)
+            <div>
+              <input type="checkbox" id="checkbox20" />
+              <input type="checkbox" id="checkbox20_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Siege of Orgrimmar (H)
+            <div>
+              <input type="checkbox" id="checkbox21" />
+              <input type="checkbox" id="checkbox21_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Mists of Pandaria WB:</li>
+
+          <li class="checkboxes">
+            Nalak, The Storm Lord
+            <div>
+              <input type="checkbox" id="checkbox22" />
+              <input type="checkbox" id="checkbox22_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            OOndasta
+            <div>
+              <input type="checkbox" id="checkbox23" />
+              <input type="checkbox" id="checkbox23_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Salyis's Warband
+            <div>
+              <input type="checkbox" id="checkbox24" />
+              <input type="checkbox" id="checkbox24_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Sha of Anger
+            <div>
+              <input type="checkbox" id="checkbox25" />
+              <input type="checkbox" id="checkbox25_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Warlords of Draenor:</li>
+
+          <li class="checkboxes">
+            Blackrock Foundry (M)
+            <div>
+              <input type="checkbox" id="checkbox26" />
+              <input type="checkbox" id="checkbox26_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Blackrock Foundry (H)
+            <div>
+              <input type="checkbox" id="checkbox27" />
+              <input type="checkbox" id="checkbox27_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Blackrock Foundry (N)
+            <div>
+              <input type="checkbox" id="checkbox28" />
+              <input type="checkbox" id="checkbox28_2" />
+            </div>
+          </li>
+
+          <li class="checkboxes">
+            Hellfire Citadel (M)
+            <div>
+              <input type="checkbox" id="checkbox29" />
+              <input type="checkbox" id="checkbox29_2" />
+            </div>
+          </li>
+
+          <li class="listHeader">Warlords of Draenor WB:</li>
+
+          <li class="checkboxes">
+            Rukhmar
+            <div>
+              <input type="checkbox" id="checkbox30" />
+              <input type="checkbox" id="checkbox30_2" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button type="button">Reset all</button>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <p>Made by:</p>
+      <img
+        src="https://seeklogo.com/images/D/discord-logo-134E148657-seeklogo.com.png"
+        alt="Discord Logo"
+      />
+      <p>Steomon#5397</p>
+    </div>
+  </footer>
+</html>
